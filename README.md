@@ -10,7 +10,15 @@
 - Streamlit Library: https://www.streamlit.io/
 - heroku Platform: https://www.heroku.com/
 - Dataset Link: https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
-- Packages: pandas, numpy, matplotlib, seaborn, sklearn, nltk, wordcloud, streamlit
+- Packages: pandas, numpy, matplotlib, seaborn, sklearn, nltk, wordcloud, pickle, streamlit
+
+# Fetaure Engineering
+We go through all the features one by one and keep adding new features. I have made the following changes and created new variables:
+- Target - Rename the v1 as  column target it means if 0 : not spam and 1 : spam.
+- Text - Rename the column v2 as Text.
+- num_characters - Made new column to check how many number of characters are there in text.
+- num_words	- Made new column to check how many number of words are there in text.
+- num_sentence - Made new column to check how many number of sentence are there in text.
 
 # Model Building
 
